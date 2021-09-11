@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HYAlertFramework_Example' do
+  pod 'HYAlertFramework', :path => '../'
+
+  target 'HYAlertFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
