@@ -1,0 +1,25 @@
+{
+  "name": "HYAlertFramework",
+  "version": "0.1.0",
+  "summary": "A short description of HYAlertFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/oceanfive/HYAlertFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "oceanfive": "849638313@qq.com"
+  },
+  "source": {
+    "http": "https://wuhyimages.oss-cn-shanghai.aliyuncs.com/HYAlert_V0.0.7.zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HYAlert.framework/**/*.{h}",
+  "requires_arc": true,
+  "public_header_files": "HYAlert.framework/Headers/*.h",
+  "vendored_frameworks": "HYAlert.framework",
+  "frameworks": "UIKit"
+}

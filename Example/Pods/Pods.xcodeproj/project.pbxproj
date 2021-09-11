@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07213704FE78EA644D3126B8F50C3228 /* HYAlertFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9BD488092EC8DEF6A5E82B50C6616B4 /* Build configuration list for PBXAggregateTarget "HYAlertFramework" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = HYAlertFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		05353E24865BB97A1E7BCBE5995708BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		06772469ECCA30176ABA8C8FA2EECB98 /* Pods-HYAlertFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E5F004E0E68F7D0607D74AC267DDD6 /* Pods-HYAlertFramework_Tests-dummy.m */; };
+		2941B823E45F8170A997F10DA9D25D19 /* Pods-HYAlertFramework_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC824F79082FD92E899A2A199DEBC37 /* Pods-HYAlertFramework_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		511AC10F842E0D178158E4AAF5801935 /* Pods-HYAlertFramework_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBB69A5AB950E171D2FF139EFBBE361 /* Pods-HYAlertFramework_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54AFB10D6EEF17B280A19679860A4778 /* Pods-HYAlertFramework_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41982BC39F35B80D1F9A0FA18E74EB6 /* Pods-HYAlertFramework_Example-dummy.m */; };
+		EC407C5058A4B5EFD1CA2401DCC19704 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798B9B5BC7D263462AA75A2336D27820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07213704FE78EA644D3126B8F50C3228;
+			remoteInfo = HYAlertFramework;
+		};
+		CD333E9D47BEC695D0CA6ADEF384F666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F622A14BB84F51F2A046CE3F72AD0B21;
+			remoteInfo = "Pods-HYAlertFramework_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EC97978FEE26621ED4BAA726E77AD9 /* Pods-HYAlertFramework_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAlertFramework_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C5A4FEFF34CB305EA380340E5E5A388 /* Pods-HYAlertFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAlertFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24751D5F225B27846563BA38DBFD54D5 /* Pods-HYAlertFramework_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAlertFramework_Example.release.xcconfig"; sourceTree = "<group>"; };
+		35BF13686D18FB40734C16B676DE9E83 /* HYAlertFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYAlertFramework.debug.xcconfig; sourceTree = "<group>"; };
+		38527FCD62AF466621D1AE908A24740B /* Pods-HYAlertFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAlertFramework_Tests-Info.plist"; sourceTree = "<group>"; };
+		3EBB69A5AB950E171D2FF139EFBBE361 /* Pods-HYAlertFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYAlertFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
+		45C5D3CEBEA85AD0129D29E1EBDF3A80 /* Pods-HYAlertFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAlertFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		54B5CB60D4C6891F00F94BCF52AE533A /* Pods-HYAlertFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAlertFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5712AF91D1C7E51B148C405A3FCEC9A7 /* Pods-HYAlertFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYAlertFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC7E651D3187D9BC891FEE55535EEE7 /* Pods-HYAlertFramework_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYAlertFramework_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		622A7CB833CC80DE2B2D690C99FC670D /* Pods-HYAlertFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYAlertFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CCB25157A68BC884B257809640CD7F3 /* Pods-HYAlertFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYAlertFramework_Tests.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B721A2E2A5E8542B4238DCDA1A0E029 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97BF0085F7ECD3F0E45CF710689B8924 /* Pods_HYAlertFramework_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYAlertFramework_Example.framework; path = "Pods-HYAlertFramework_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEC824F79082FD92E899A2A199DEBC37 /* Pods-HYAlertFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYAlertFramework_Example-umbrella.h"; sourceTree = "<group>"; };
+		B8831C43294487B5DEAEF4C1DBCF6F13 /* Pods_HYAlertFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYAlertFramework_Tests.framework; path = "Pods-HYAlertFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41982BC39F35B80D1F9A0FA18E74EB6 /* Pods-HYAlertFramework_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYAlertFramework_Example-dummy.m"; sourceTree = "<group>"; };
+		C92FD5E15483ACA60A11C406AF6B0B82 /* HYAlertFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HYAlertFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF33B22B0CDC607A036C9B5CA4DF18B8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D30094A5DA67837492011B99A98D40E0 /* HYAlertFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYAlertFramework.release.xcconfig; sourceTree = "<group>"; };
+		DD5701E80A361E6A328ED5C3DB4C3104 /* Pods-HYAlertFramework_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYAlertFramework_Example.modulemap"; sourceTree = "<group>"; };
+		E290E0B96CD600AA27E17395CA42312C /* Pods-HYAlertFramework_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYAlertFramework_Example-Info.plist"; sourceTree = "<group>"; };
+		E4E5F004E0E68F7D0607D74AC267DDD6 /* Pods-HYAlertFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYAlertFramework_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		770610FD141DFB3AC392A2ACDDAEBBC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05353E24865BB97A1E7BCBE5995708BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E820BDEDD57D6D92F060BBA3212F9E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC407C5058A4B5EFD1CA2401DCC19704 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36811B78A8843E0A8243CEF80341D272 /* Pods-HYAlertFramework_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB25157A68BC884B257809640CD7F3 /* Pods-HYAlertFramework_Tests.modulemap */,
+				622A7CB833CC80DE2B2D690C99FC670D /* Pods-HYAlertFramework_Tests-acknowledgements.markdown */,
+				0C5A4FEFF34CB305EA380340E5E5A388 /* Pods-HYAlertFramework_Tests-acknowledgements.plist */,
+				E4E5F004E0E68F7D0607D74AC267DDD6 /* Pods-HYAlertFramework_Tests-dummy.m */,
+				38527FCD62AF466621D1AE908A24740B /* Pods-HYAlertFramework_Tests-Info.plist */,
+				3EBB69A5AB950E171D2FF139EFBBE361 /* Pods-HYAlertFramework_Tests-umbrella.h */,
+				5712AF91D1C7E51B148C405A3FCEC9A7 /* Pods-HYAlertFramework_Tests.debug.xcconfig */,
+				54B5CB60D4C6891F00F94BCF52AE533A /* Pods-HYAlertFramework_Tests.release.xcconfig */,
+			);
+			name = "Pods-HYAlertFramework_Tests";
+			path = "Target Support Files/Pods-HYAlertFramework_Tests";
+			sourceTree = "<group>";
+		};
+		3D3974A6D46E029E0C8E661C5EA4C909 /* Pods-HYAlertFramework_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD5701E80A361E6A328ED5C3DB4C3104 /* Pods-HYAlertFramework_Example.modulemap */,
+				5FC7E651D3187D9BC891FEE55535EEE7 /* Pods-HYAlertFramework_Example-acknowledgements.markdown */,
+				05EC97978FEE26621ED4BAA726E77AD9 /* Pods-HYAlertFramework_Example-acknowledgements.plist */,
+				C41982BC39F35B80D1F9A0FA18E74EB6 /* Pods-HYAlertFramework_Example-dummy.m */,
+				E290E0B96CD600AA27E17395CA42312C /* Pods-HYAlertFramework_Example-Info.plist */,
+				AEC824F79082FD92E899A2A199DEBC37 /* Pods-HYAlertFramework_Example-umbrella.h */,
+				45C5D3CEBEA85AD0129D29E1EBDF3A80 /* Pods-HYAlertFramework_Example.debug.xcconfig */,
+				24751D5F225B27846563BA38DBFD54D5 /* Pods-HYAlertFramework_Example.release.xcconfig */,
+			);
+			name = "Pods-HYAlertFramework_Example";
+			path = "Target Support Files/Pods-HYAlertFramework_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EFEC73BA6B90C0ED8503D05449D505A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAB951684580989204874D5220F977F9 /* HYAlertFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		69FFC479296F1F9E9305505D0714016C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97BF0085F7ECD3F0E45CF710689B8924 /* Pods_HYAlertFramework_Example.framework */,
+				B8831C43294487B5DEAEF4C1DBCF6F13 /* Pods_HYAlertFramework_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F5962901C747148E5D06F47C4D7A8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35BF13686D18FB40734C16B676DE9E83 /* HYAlertFramework.debug.xcconfig */,
+				D30094A5DA67837492011B99A98D40E0 /* HYAlertFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYAlertFramework";
+			sourceTree = "<group>";
+		};
+		9D189DD6F547166E4A45F242FFE50626 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C92FD5E15483ACA60A11C406AF6B0B82 /* HYAlertFramework.podspec */,
+				7B721A2E2A5E8542B4238DCDA1A0E029 /* LICENSE */,
+				CF33B22B0CDC607A036C9B5CA4DF18B8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5EFEC73BA6B90C0ED8503D05449D505A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				69FFC479296F1F9E9305505D0714016C /* Products */,
+				FADDBAEBA3CF1687E65B3EEF8F9C791E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB951684580989204874D5220F977F9 /* HYAlertFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9D189DD6F547166E4A45F242FFE50626 /* Pod */,
+				86F5962901C747148E5D06F47C4D7A8B /* Support Files */,
+			);
+			name = HYAlertFramework;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FADDBAEBA3CF1687E65B3EEF8F9C791E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3974A6D46E029E0C8E661C5EA4C909 /* Pods-HYAlertFramework_Example */,
+				36811B78A8843E0A8243CEF80341D272 /* Pods-HYAlertFramework_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BB45529DE54BC7717E9C9C3E4DB4C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2941B823E45F8170A997F10DA9D25D19 /* Pods-HYAlertFramework_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB03B9059D9585BD5CC541D32FB5195 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511AC10F842E0D178158E4AAF5801935 /* Pods-HYAlertFramework_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7920C8232CCF2118D9B4C349D8FF163 /* Pods-HYAlertFramework_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D417001A2A118CF5523A750E4BBA1D3 /* Build configuration list for PBXNativeTarget "Pods-HYAlertFramework_Tests" */;
+			buildPhases = (
+				EEB03B9059D9585BD5CC541D32FB5195 /* Headers */,
+				3C58A9DDFEDEE959D3D5C2C107C1B520 /* Sources */,
+				E820BDEDD57D6D92F060BBA3212F9E4E /* Frameworks */,
+				2F11B7FC2994232895773821F3607E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4554FCEA48E0B78CECE3BBA6C4FFA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYAlertFramework_Tests";
+			productName = "Pods-HYAlertFramework_Tests";
+			productReference = B8831C43294487B5DEAEF4C1DBCF6F13 /* Pods_HYAlertFramework_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F622A14BB84F51F2A046CE3F72AD0B21 /* Pods-HYAlertFramework_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2310BDF9EA38C41173C9A8152DCA46A3 /* Build configuration list for PBXNativeTarget "Pods-HYAlertFramework_Example" */;
+			buildPhases = (
+				9BB45529DE54BC7717E9C9C3E4DB4C50 /* Headers */,
+				C7AF0CA096F60F109664A09C89D60468 /* Sources */,
+				770610FD141DFB3AC392A2ACDDAEBBC2 /* Frameworks */,
+				9479B930D521B1CA820664D713AD86F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62066BAE49C78EDEADC3A74BDB03E213 /* PBXTargetDependency */,
+			);
+			name = "Pods-HYAlertFramework_Example";
+			productName = "Pods-HYAlertFramework_Example";
+			productReference = 97BF0085F7ECD3F0E45CF710689B8924 /* Pods_HYAlertFramework_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 69FFC479296F1F9E9305505D0714016C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07213704FE78EA644D3126B8F50C3228 /* HYAlertFramework */,
+				F622A14BB84F51F2A046CE3F72AD0B21 /* Pods-HYAlertFramework_Example */,
+				A7920C8232CCF2118D9B4C349D8FF163 /* Pods-HYAlertFramework_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F11B7FC2994232895773821F3607E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9479B930D521B1CA820664D713AD86F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C58A9DDFEDEE959D3D5C2C107C1B520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06772469ECCA30176ABA8C8FA2EECB98 /* Pods-HYAlertFramework_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7AF0CA096F60F109664A09C89D60468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFB10D6EEF17B280A19679860A4778 /* Pods-HYAlertFramework_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62066BAE49C78EDEADC3A74BDB03E213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HYAlertFramework;
+			target = 07213704FE78EA644D3126B8F50C3228 /* HYAlertFramework */;
+			targetProxy = 798B9B5BC7D263462AA75A2336D27820 /* PBXContainerItemProxy */;
+		};
+		AF4554FCEA48E0B78CECE3BBA6C4FFA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HYAlertFramework_Example";
+			target = F622A14BB84F51F2A046CE3F72AD0B21 /* Pods-HYAlertFramework_Example */;
+			targetProxy = CD333E9D47BEC695D0CA6ADEF384F666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D020E69BDB6DDA193247C78BCBA539E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B5CB60D4C6891F00F94BCF52AE533A /* Pods-HYAlertFramework_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAlertFramework_Tests/Pods-HYAlertFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAlertFramework_Tests/Pods-HYAlertFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8295ABA6EF6171ADD99DCD874A625C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5712AF91D1C7E51B148C405A3FCEC9A7 /* Pods-HYAlertFramework_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAlertFramework_Tests/Pods-HYAlertFramework_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAlertFramework_Tests/Pods-HYAlertFramework_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E57BB43F85041958B38110781D38991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C5D3CEBEA85AD0129D29E1EBDF3A80 /* Pods-HYAlertFramework_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAlertFramework_Example/Pods-HYAlertFramework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAlertFramework_Example/Pods-HYAlertFramework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A82F2B21F0146155F5FBAFCCC5468D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35BF13686D18FB40734C16B676DE9E83 /* HYAlertFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4D2A199749C4E5351A873EBFA5124BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24751D5F225B27846563BA38DBFD54D5 /* Pods-HYAlertFramework_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HYAlertFramework_Example/Pods-HYAlertFramework_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HYAlertFramework_Example/Pods-HYAlertFramework_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFB060ECFF13B8697BAABAC42EE7BD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30094A5DA67837492011B99A98D40E0 /* HYAlertFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2310BDF9EA38C41173C9A8152DCA46A3 /* Build configuration list for PBXNativeTarget "Pods-HYAlertFramework_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E57BB43F85041958B38110781D38991 /* Debug */,
+				F4D2A199749C4E5351A873EBFA5124BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D417001A2A118CF5523A750E4BBA1D3 /* Build configuration list for PBXNativeTarget "Pods-HYAlertFramework_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8295ABA6EF6171ADD99DCD874A625C85 /* Debug */,
+				0D020E69BDB6DDA193247C78BCBA539E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BD488092EC8DEF6A5E82B50C6616B4 /* Build configuration list for PBXAggregateTarget "HYAlertFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A82F2B21F0146155F5FBAFCCC5468D3A /* Debug */,
+				FFB060ECFF13B8697BAABAC42EE7BD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

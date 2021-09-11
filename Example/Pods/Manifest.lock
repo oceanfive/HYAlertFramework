@@ -1,0 +1,16 @@
+PODS:
+  - HYAlertFramework (0.1.0)
+
+DEPENDENCIES:
+  - HYAlertFramework (from `../`)
+
+EXTERNAL SOURCES:
+  HYAlertFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HYAlertFramework: 55d21d84973a16878e36a16afe4f90555d369221
+
+PODFILE CHECKSUM: 634a6ffadd2f649182bece2f26440be2382b9a32
+
+COCOAPODS: 1.10.2
